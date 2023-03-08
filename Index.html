@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <script src="Logica.js"></script>
+
+    <div id="contenedor" class="contendor">
+        <h1 id="titulo" class="titulo">Curriculum Vitae: Jose Hernandez</h1>
+        
+        <img id="perfil" src="https://randomuser.me/api/portraits/men/20.jpg">
+        <p class="mensaje">Hola! Soy Jose Hernandez, tengo 27 años y soy Programador. Tengo poca experiencia en empresas pero he trabajo en muchos proyecto en forma particular. Ahora estoy en la busqueda de un trabajo en una empresa que me permita crecer a nivel profesional y personal. Saludos! </p>
+
+        <div class="menu">
+            <button class="botonDP botones" id="datosDP">Datos personales</button>
+            <div class="flotante detallesDP">
+                <ul>
+                    <li id="name">Nombre y apellido: Jose Hernandez</li>
+                    <li id="date">Fecha de nacimiento: 22/06/1995</li>
+                    <li id="id">Documento: 25698741</li>
+                    <li id="tel">Telefono: 381654979</li>
+                    <li id="mail">Correo electronico: jos_h85@gmail.com</li>
+                    <li id="adress">Direccion: Piedra buena 332</li>                        
+                    <li id="status">Estado civil: Casado</li>
+                    <li id="place">Nacionalidad: Argentina</li>
+                </ul>
+            </div> 
+        </div>  
+           
+        <div class="menu">
+            <button class="botonDE botones" id="datosDE">Experiencia Laboral</button>
+            <div class="flotante detallesDE">
+                <ul>
+                    <li id="exp1">Mercado Libre: Developer (mayo 2020 - julio 2021)</li>
+                    <li id="exp2">Freelance: Diseño de paginas web/aplicaciones a pedido (agosto 2021 - presente)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu">
+            <button class="botonDH botones" id="datosDH">Habilidades</button>
+            <div class="detallesDH">
+                <ul>
+                    <li id="mleng">Manejo de lenguajes : SQL, PYTHON y JAVASCRIPT</li>
+                    <li id="mapp">Manejo de aplicaciones: WORD, EXCEL y POWER POINT</li>
+                    <li id="mred">Manejo de redes sociales: Facebook e Instagram</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="ajustes">
+            <button type="button" onclick="idioma()" class="botones config" id="idioma">Ingles</button>
+            <button type="button" onclick="moscuro()" class="botones config" id="oscuro">Modo oscuro</button>
+        </div>
+
+    </div>
+    
+
+</body>
+</html>
